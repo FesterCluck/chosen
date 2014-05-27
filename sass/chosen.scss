@@ -271,6 +271,14 @@ $chosen-sprite-retina: image-url('chosen-sprite@2x.png') !default;
     color: #ccc;
     cursor: default;
   }
+
+  &.has-checkboxes .chosen-drop {
+    li {
+      width: 25%;
+      float: left;
+      box-sizing: border-box;
+    }
+  }
 }
 /* @end */
 
