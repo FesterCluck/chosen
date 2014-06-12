@@ -3,7 +3,6 @@ node_modules
 .project
 dist/
 
-public/*.css
 chosen.zip
 .sass-cache
 .ruby-version
