@@ -358,3 +358,33 @@
     background-size: 52px 37px !important;
     background-repeat: no-repeat !important; } }
 /* @end */
+
+
+li.column-overrides {
+	display: block !important;
+	width: auto !important;
+	float: none !important;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+.has-checkboxes li {
+	width: 100% !important;
+}
+
+.chosen-drop.column-overrides {
+	overflow-y: auto;
+	max-height: 240px;
+	height: 240px;
+}
+
+.chosen-results.column-width-overrides {
+	overflow-x: auto;
+	height: 240px;
+}
+
+.chosen-results.column-overrides {
+	max-height: none;
+}
+
