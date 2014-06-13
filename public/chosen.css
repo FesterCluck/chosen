@@ -249,7 +249,7 @@
   padding: 0; }
 .chosen-container-multi .chosen-drop .result-selected {
   display: list-item;
-  color: #ccc;
+ /* color: #ccc; */
   cursor: default; }
 .chosen-container-multi.has-checkboxes .chosen-drop li {
   width: 25%;
@@ -369,14 +369,13 @@ li.column-overrides {
 	white-space: nowrap;
 }
 
-.has-checkboxes li {
+.has-checkboxes .chosen-drop li {
 	width: 100% !important;
 }
 
-.chosen-drop.column-overrides {
+.chosen-options-scrollable.column-overrides {
 	overflow-y: auto;
 	max-height: 240px;
-	height: 240px;
 }
 
 .chosen-results.column-width-overrides {
